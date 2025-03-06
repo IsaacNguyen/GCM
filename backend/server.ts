@@ -60,6 +60,6 @@ app.get('/generate-csv', async (req: Request, res: Response) => {
     }
 });
 
-// app.use('/exports', express.static('public/exports'));
+app.use('/exports', express.static('public/exports'));
 
 export default app;
